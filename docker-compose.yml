@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  payment-service:
+    build: ./payment-service  # Path to the directory containing payment-service Dockerfile
+    container_name: payment-service
+    ports:
+      - "8090:8090"  # Map host port 8090 to container port 8090
+    environment:
+      - SERVER_PORT=8090  # Set server port for payment-service
+
+  property-service:
+    build: ./property-service  # Path to the directory containing property-service Dockerfile
+    container_name: property-service
+    ports:
+      - "8091:8091"  # Map host port 8091 to container port 8091
+    environment:
+      - SERVER_PORT=8091  # Set server port for property-service
