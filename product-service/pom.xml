@@ -38,7 +38,7 @@
         </dependency>
         <dependency>
             <groupId>com.michael</groupId>
-            <artifactId>my-microservice</artifactId>
+            <artifactId>microservice-kafka</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

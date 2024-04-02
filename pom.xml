@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.michael</groupId>
-	<artifactId>my-microservice</artifactId>
+	<artifactId>microservice-kafka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>my-microservice</name>
-	<description>my-microservice</description>
+	<name>microservice-kafka</name>
+	<description>Microservice with kafka messaging</description>
 	<properties>
 		<java.version>22</java.version>
 	</properties>
